@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 3px solid black
+}
+/* Be prepared to individually alter the following headings' font sizes. */
+h1 {
+    font-size: 45px;
+    text-align: center;
+    text-decoration:underline;
+    padding: 10px;
+}
+h2, h4, h5, h6{
+    font-size: 25px;
+}
+h3{
+    font-size:75px;
+    color: white;
+    position:absolute;
+    top: 35%;
+    left: 3.5%;
+}
+p{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:60%;
+}
+header{
+    height:85px;
+}
+nav{
+    background-color: blanchedalmond;
+    position:sticky;
+    top: 0;
+    z-index: 3;
+    height: 80px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    top: 10%;
+}
+nav ul li a{
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 15px;
+}
+nav ul li a link{
+    color: black;
+}
+nav ul li a:hover{
+    color:rgb(220, 77, 20)
+}
+nav ul li a:active{
+    color:rgb(224, 209, 141)
+}
+main{
+    
+    /* background-position-x: center;
+    background-position-y: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: burlywood;
+    height: 800px;
+    position: relative;
+}
+main .main-child{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 810px;
+    width: 1520px;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section{
+    background-color: rgb(240, 225, 206);;
+    height: 340px;
+    width: 100%;
+}
+.Introduction{
+    color:black
+}
+article{
+    background-color: rgb(240, 225, 206);;
+    height: 340px;
+    width: 100%;
+    float: left;
+}
+footer{
+    background-color:blanchedalmond;
+    height: 120px;
+    clear: both;
+}
