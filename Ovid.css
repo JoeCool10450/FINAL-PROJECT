@@ -4,14 +4,22 @@
     box-sizing: border-box;
 }
 .border{
-    border: 3px solid black;
+    border: 3px solid black
 }
 h1{
     font-size: 45px;
     text-align: center;
 }
 h2{
-    font-size:30px;
+    font-size:45px;
+}
+h3{
+    font-size:15px;
+}
+pre{
+    font-size: 25px;
+    color:black;
+    text-align:center;
 }
 p{
     font-size: 25px;
@@ -54,17 +62,18 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: burlywood;
-    height: 400px;
+    height: 1450px;
     position: relative;
 }
 section{
-    /* background-position-x: center;
-    background-position-y: center; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: burlywood;
-    height: 525px;
-    position: relative;
+    background-color: rgb(240, 225, 206);;
+    height: 300px;
+    width: 100%;
+}
+article{
+    background-color: rgb(240, 225, 206);;
+    height: 600px;
+    width: 100%;
 }
 footer{
     background-color:blanchedalmond;
